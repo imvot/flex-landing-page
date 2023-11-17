@@ -1,61 +1,72 @@
 <!DOCTYPE html>
-<html lang='en'>
-	<head>
-		<title>My Super NICE Landing Page !!!</title>
-		<meta charset='utf-8'>
-		<link rel='stylesheet' href='style.css'>
-	</head>
-
-	<body>
-		<div class='hero-container'>
-			<div class='hero'>
-				<div class='header'>
-					<h2>Header Logo</h2>
-					<ul>
-						<li>header link one</li>
-						<li>header link two</li>
-						<li>header link three</li>
-					</ul>
-				</div>
-				<div class='main'>
-					<div class='text'>
-						<h1>This Website is awesome</h1>
-						<p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-						<button>Sign up</button>
-					</div>
-
-					<div class='img'>this is a place holder for an image</div>
-				</div>
-			</div>
-		</div>
-
-		<div class='info-container'>
-			<h3>Some random information</h3>
-			<ul>
-				<li><div class='img'></div>this is some subtext under and illustration or image</li>
-				<li><div class='img'></div>this is some subtext under and illustration or image</li>
-				<li><div class='img'></div>this is some subtext under and illustration or image</li>
-				<li><div class='img'></div>this is some subtext under and illustration or image</li>
-			</ul>
-		</div>
-
-		<div class='quote-container'>
-			<div class='quote'>
-				<q>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who know ? All I know is that it looks nice</q>
-				<div class='citation'>-Thor, God of Thunder</div>
-			</div>
-		</div>
-
-		<div class='signup-container'>
-			<div class='signup'>
-				<div class='text'>
-					Call to action! It's time
-					<p> Signup for ou product by clicking that button right over there!</p>
-				</div>
-				<button>Sign up</button>
-			</div>
-		</div>
-
-		<div class='footer'>Copyright © Me, Myself and I ?</div>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">Header Logo</div>
+            <div class="header-list">
+                <div class="header-listItem">header link one</div>
+                <div class="header-listItem">header link two</div>
+                <div class="header-listItem">header link three</div>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-container">
+            <div class="hero-infoContainer">
+                <div class="hero-title">Thiw website is awesome</div>
+                <div class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+                <button class="hero-button">Sign Up</button>
+            </div>
+            <div class="hero-imgContainer">
+                <img class="hero-img" alt="placeholder">
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-title">Some random information</div>
+        <div class="info-cells">
+            <div class="info-cell">
+                <img class="info-img" alt="placeholder">
+                <div class="info-text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="info-cell">
+                <img class="info-img" alt="placeholder">
+                <div class="info-text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="info-cell">
+                <img class="info-img" alt="placeholder">
+                <div class="info-text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="info-cell">
+                <img class="info-img" alt="placeholder">
+                <div class="info-text">this is some subtext under an illustration or image</div>
+            </div>
+        </div>
+    </div>
+    <figure class="quote">
+        <blockquote class="quote-text">This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows ? All I know is that it looks nice.</blockquote>
+        <figcaption class="quote-author">-Thor, God of Thunder</figcaption>
+    </figure>
+    <div class="callToAction">
+        <div class="callToAction-container">
+            <div class="callToAction-infoContainer">
+                <div class="callToAction-title">Call to Action! It's time!</div>
+                <div class="callToAction-text">Sign up for our product by clicking that button right over thre !</div>
+            </div>
+            <div class="callToAction-buttonContainer">
+                <button class="callToAction-button">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-text">Copyright © The Odin Project 2021</div>
+    </footer>
+</body>
 </html>
