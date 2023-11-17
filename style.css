@@ -168,3 +168,47 @@ body {
     text-align: right;
     font-size: 24px;
 }
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.callToAction-container {
+    background-color: var(--button-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    padding: 40px 90px;
+}
+
+.callToAction-infoContainer {
+    flex: 1 1 auto;
+}
+
+.callToAction-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: var(--dark-main-text-color);
+}
+
+.callToAction-text {
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--dark-secondary-text-color);
+}
+
+.callToAction-buttonContainer {
+    flex: 0 1 auto;
+}
+
+.callToAction-button {
+    background: var(--button-color);
+    color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+    padding: 8px 32px;
+}
