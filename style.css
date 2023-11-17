@@ -2,7 +2,7 @@
     --dark-background-color: #1F2937;
     --dark-main-text-color: #F9FAF8;
     --dark-secondary-text-color: #E5E7EB;
-    --light-main-text-color: #1F2937;
+    --light-main-text-color: var(--dark-background-color);
     --light-secondary-text-color: #7c8084;
     --button-color: #3882F6;
 }
@@ -98,4 +98,45 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.info-cells {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-cell {
+    flex: 0 1 auto;
+    width: 150px;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--light-main-text-color);
+    margin-bottom: 32px;
+}
+
+.info-text {
+    font-size: 18px;
+    color: var(--light-secondary-text-color);
+    font-size: 18px;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: var(--button-color) 3px solid;
+    border-radius: 10px;
+    margin: 8px 0;
 }
