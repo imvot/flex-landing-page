@@ -212,3 +212,12 @@ body {
     border-radius: 5px;
     padding: 8px 32px;
 }
+
+.footer {
+    background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: var(--dark-secondary-text-color);
+}
