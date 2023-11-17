@@ -47,3 +47,55 @@ body {
     font-weight: lighter;
     color: var(--dark-secondary-text-color);
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: var(--dark-background-color);
+}
+
+.hero-container {
+    flex: 0 1 auto;    
+    width: 800px;
+    display: flex;
+    gap: 32px;
+}
+
+.hero-infoContainer,
+.hero-imgContainer {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: var(--dark-main-text-color);
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: var(--dark-secondary-text-color);
+    font-weight: lighter;
+    margin: 12px 0;
+}
+
+.hero-button {
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 24px;
+}
+
+.hero-img {
+    border: solid 1px black;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
